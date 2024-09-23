@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# ice-cream-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an interface developed for a basic unit testing application. It allows users to select ice cream varieties and toppings, while displaying a total price that updates based on their selections. The various stages have been validated through unit tests.
 
-## Available Scripts
+<h2> Video gif</h2>
 
-In the project directory, you can run:
+![](./public/images/ice-cream.gif)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Users can select ice cream varieties and toppings, and the total price will be updated visually. The total price automatically changes with each selection. Feel free to experiment with different combinations within the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Main Objective >>>> UNIT TEST
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this project, unit tests have been implemented to validate selections for ice cream varieties and topping options, as well as the total price calculation. To run the tests, you can use the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The main technologies and libraries used in this project are:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- Axios: For making API requests.
+- Json Server: For API
+- Bootstrap CSS: For responsive design and styling.
+- React Icons: For integrating icons.
+- React Testing Library & @testing-library/user-event: For unit testing components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Clone the project to your local machine:
+  git clone https://github.com/ozerbaykal/ice-cream-app.git
 
-## Learn More
+- Navigate to the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+cd ice-cream-app
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Install the necessary packages:
 
-### Code Splitting
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### or
 
-### Analyzing the Bundle Size
+```
+yarn install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+- Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm run dev
+```
 
-### Advanced Configuration
+### or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+yarn dev
+```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<h2>Contributing</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! Please open an issue first to discuss what you would like to change.
+
+- 1.Fork the project
+- 2.Create your feature branch (git checkout -b feature/NewFeature)
+- 3.Commit your changes (git commit -m 'Add new feature')
+- 4.Push to the branch (git push origin feature/NewFeature)
+- 5.Open a Pull Request
+
+<h2>Contact</h2>
+
+Özer BAYKAL mail : baykalozer87@gmail.com
+
+Project Link: https://github.com/ozerbaykal/ice-cream-app
